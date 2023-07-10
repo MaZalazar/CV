@@ -1,0 +1,25 @@
+p {
+    font-size: 27;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+    font-style: oblique;
+}
+h1 {
+    background-color: bisque;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#principal {
+    background-color:whitesmoke ;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 15px;
+    padding-bottom: 15PX;
+}
+#pie {
+    background-color: bisque;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 15px;
+}
