@@ -30,11 +30,24 @@ h1 {
     box-shadow: 0 0 10px #464646;
 }
 
+#pie ul:first-child::before {
+    content: "♥ "
+    }
+#pie ul:nth-child(2)::after {
+    content: " ®"
+}
+
+#pie ul {
+    display: flex-start;
+   
+}
+
 img {
-    box-shadow: 0 0 10px #464646;
+    box-shadow: 0 0 15px #464646;
 }
 
 #prueba {
+
     text-align: center;
 
     border: 4px double #1b65d1;
@@ -63,6 +76,11 @@ img {
       
 }
 
+#prueba:hover {
+    font-size: 18px;
+    border-color: brown;
+  }
+
 .otrafuente{
     
     font-family: 'Roboto', sans-serif;
@@ -70,3 +88,13 @@ img {
     text-align: justify;
 
 }
+
+h3:first-child {
+    color:brown;
+    text-align: center;
+}
+
+li:nth-child(3) {
+    color:#1b65d1;
+}
+

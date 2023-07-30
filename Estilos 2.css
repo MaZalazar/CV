@@ -1,0 +1,14 @@
+div {
+    background-color: beige;
+    margin: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input::placeholder { 
+    color:gray;
+    font-style: italic; 
+    text-align: left;
+}
+
